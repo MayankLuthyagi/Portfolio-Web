@@ -1,8 +1,8 @@
 import styles from "@/constants.js/styles"
 import Image from "next/image"
 import Link from "next/link"
-import { OpportuneXLogo, Talentd} from "@/constants.js/assets"
-import { TalendLink , OpportuneXLink,} from "@/constants.js/links"
+import { Talentd} from "@/constants.js/assets"
+import { TalendLink,} from "@/constants.js/links"
 function Experience({ experience, id }) {
     return (
         <>
@@ -35,13 +35,6 @@ function Experience({ experience, id }) {
 
 function Experiences() {
     const experiences = [
-        {
-            title: "OpportuneX",
-            info: "Full Stack Developer",
-            logo: OpportuneXLogo,
-            link: OpportuneXLink,
-            time: "October 2024 - Currently",
-        },
         {
             title: "Talentd",
             info: "Backend Developer Intern",
