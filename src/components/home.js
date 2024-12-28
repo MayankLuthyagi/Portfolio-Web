@@ -125,7 +125,7 @@ function HomeComponent() {
                     ))}
                   </div>
                   <Link
-                      href="https://drive.google.com/file/d/115aeBsrIXTmNtJAssDY1-mYvlIy8ydY6/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1BdF-ColwD96crc1BeNoW4FCNdl-Jpr6k/view?usp=sharing"
                       download="Resume-Mayank"
                       target="_blank"
                   >

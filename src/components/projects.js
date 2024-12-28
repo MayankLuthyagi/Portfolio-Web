@@ -68,13 +68,13 @@ export default function Projects() {
     ];
     return (
         <>
+            <h2 className={`${styles.heading} text-pink text-center mb-2`}>Projects</h2>
         <section id="projects" className="w-full py-12 lg:py-16 bg-black bg-dot-white/[0.3] relative">
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
            
-            <div className="container px-4 space-y-10 lg:space-y-12 ">
+            <div className="container px-4 space-y-4 lg:space-y-4 ">
                 <div className="space-y-4 lg:space-y-0 text-center">
-                    <h2 className={`${styles.heading} text-pink`}>Projects</h2>
-                    
+
                     <p className={`${styles.paragraph}`}>
                         Take a look at some of my recent and most exciting projects.
                     </p>
